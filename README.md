@@ -1,31 +1,26 @@
-# Ministri Public Website — Landing Page Style
+# Ministri Public Website
 
-This version is styled to match the existing Ministri application landing page:
-cream background, navy typography, Ministri purple accents, rounded white feature
-cards, soft glow effects, the current calendar hero image, and the navy/purple CTA.
+This package updates the existing GitHub Pages website for `ministri.app`.
 
-## Upload to GitHub
+## Structure
 
-Replace the existing public website files with:
+- `/index.html` — public Ministri marketing site, now positioned for Ministri Cloud/web/mobile subscription use.
+- `/fellowship-licence/index.html` — dedicated Fellowship Licence page for authorised Potter's House Fellowship churches.
+- `/styles.css` — existing Ministri styling plus Cloud and Fellowship Licence page styles.
+- `/script.js` — dynamic copyright year.
+- `/assets/` — existing Ministri imagery.
+- `/CNAME` — retains the custom domain `ministri.app`.
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/`
-- `CNAME`
+## Important commercial separation
 
-Keep `CNAME` in the repository root so the custom domain remains `ministri.app`.
+The Fellowship Licence page intentionally contains **no price**. Current fees, launch offers and changing commercial terms should remain in the current Fellowship Licence information/document supplied directly to eligible churches.
 
-## Contact form
+The public homepage describes Ministri Cloud as being prepared for public subscription release rather than presenting it as already live.
 
-Before launch, replace:
+## GitHub Pages upload
 
-`https://formspree.io/f/YOUR_FORM_ID`
+Replace the matching website files in the current GitHub Pages repository with the files in this package, including the new `fellowship-licence` folder. Keep `CNAME` at the repository root.
 
-inside `index.html` with the Formspree endpoint connected to your Ministri Gmail.
+The Fellowship page will then be available at:
 
-## Assets
-
-- `assets/calendar-hero.png` — current Ministri Calendar visual
-- `assets/ministri-icon.png` — Ministri app icon
-- `assets/opengraph-image.png` — social preview image
+`https://ministri.app/fellowship-licence/`
