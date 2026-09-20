@@ -24,3 +24,10 @@ Replace the matching website files in the current GitHub Pages repository with t
 The Fellowship page will then be available at:
 
 `https://ministri.app/fellowship-licence/`
+
+
+## Fellowship Licence page
+
+The Fellowship Licence page lives at `/fellowship-licence/`. It is intentionally not linked from the public homepage navigation or footer. Share the direct URL privately with authorised Potter's House Fellowship churches. The page includes `noindex, nofollow` to discourage search-engine indexing.
+
+Pricing is intentionally not hard-coded on the website; current fees/offers should remain in the current Fellowship Licence document.
